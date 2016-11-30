@@ -1,0 +1,16 @@
+Package: GFcom
+Type: Package
+Title: Efficient Estimation of Disease Odds Ratios for the Follow-up Genetic Association Studies
+Version: 1.0
+Date: 2016-11-29
+Author: Jiyuan Hu
+Maintainer: Jiyuan Hu <jiyuan_hu@fudan.edu.cn>
+Description: This package is developed to efficiently estimate the disease odds ratios of candidate SNPs for the follow-up genetic association studies. OR estimates from the initial GWAS scan suffers the well known selection bias, or the Winner’s curse, which can be rather severe when the association tests for the candidate markers lacks statistical power. The newly developed OR estimator GFcom produces both point and CI estimates for the candidate SNPs. Both the point and CI estimate of GFcom shows efficient performance compared with other OR estimators. 
+Depends:
+    R (>= 2.14)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/JiyuanHu/GFcom
+BugReports: http://github.com/JiyuanHu/GFcom/issues
+RoxygenNote: 5.0.1
